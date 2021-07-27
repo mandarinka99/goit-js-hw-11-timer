@@ -13,14 +13,12 @@ body {
 }
 
 .timer {
-  background-color: rgb(29, 3, 3);
-  
-  color: rgb(212, 190, 190);
+  color: rgb(239, 210, 210);
+
   display: flex;
   font-size: 40px;
   font-weight: bold;
   text-align: center;
-  margin: 0 auto;
   position: absolute;
   top: 10%;
   left: 35%;
@@ -29,5 +27,8 @@ body {
 
 .field {
   border: 2px rgb(71, 2, 31) solid;
+  background-color: rgb(29, 3, 3);
+  border-radius: 5px;
   width: 110px;
+  margin-left: 5px;
 }
