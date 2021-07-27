@@ -5,4 +5,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");var e=t(require("./countdown-timer"));function t(e){return e&&e.__esModule?e:{default:e}}new e.default({selector:"#timer-1",targetDate:new Date("Jul 30, 2021")});
 },{"./sass/main.scss":"clu1","./countdown-timer":"s6Me"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-11-timer/src.7ec39171.js.map
+//# sourceMappingURL=/goit-js-hw-11-timer/src.ff137c1e.js.map
