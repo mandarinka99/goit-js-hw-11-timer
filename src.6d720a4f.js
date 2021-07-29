@@ -3,6 +3,6 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"s6Me":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;class e{constructor(e){this.selector=document.querySelector(e.selector),this.targetDate=e.targetDate,this.setTime=(()=>{const e=new Date,t=this.targetDate-e,r=Math.floor(t/864e5).toString().padStart(2,0),a=Math.floor(t%864e5/36e5).toString().padStart(2,0),s=Math.floor(t%36e5/6e4).toString().padStart(2,0),o=Math.floor(t%6e4/1e3).toString().padStart(2,0);this.selector.querySelector('[data-value="days"]').innerHTML=`${r}`,this.selector.querySelector('[data-value="hours"]').innerHTML=`${a}`,this.selector.querySelector('[data-value="mins"]').innerHTML=`${s}`,this.selector.querySelector('[data-value="secs"]').innerHTML=`${o}`}),this.setTime(),setInterval(this.setTime,1e3)}}var t=e;exports.default=t;
 },{}],"Focm":[function(require,module,exports) {
-"use strict";require("./sass/main.scss");var e=t(require("./countdown-timer"));function t(e){return e&&e.__esModule?e:{default:e}}new e.default({selector:"#timer-1",targetDate:new Date("Jul 30, 2021")});
+"use strict";require("./sass/main.scss");var e=t(require("./countdown-timer"));function t(e){return e&&e.__esModule?e:{default:e}}new e.default({selector:"#timer-1",targetDate:new Date("Sep 30, 2021")});
 },{"./sass/main.scss":"clu1","./countdown-timer":"s6Me"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-11-timer/src.69183b66.js.map
+//# sourceMappingURL=/goit-js-hw-11-timer/src.6d720a4f.js.map
