@@ -19,11 +19,14 @@ class CountdownTimer {
       this.selector.querySelector('[data-value="hours"]').innerHTML = `${hours}`;
       this.selector.querySelector('[data-value="mins"]').innerHTML = `${mins}`;
       this.selector.querySelector('[data-value="secs"]').innerHTML = `${secs}`;
+
     }
   
     this.setTime();
   
     setInterval(this.setTime, 1000);
+
+    
   }
 };
 
